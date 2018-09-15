@@ -10,7 +10,7 @@
     "build": "webpack --config webpack.prod.js",
     "dev-server": "webpack-dev-server --open --config webpack.dev.js",
     "start": "node server/server.js",
-    "heroku-postBuild": "yarn run build"
+    "heroku-postbuild": "yarn run build"
   },
   "dependencies": {
     "babel-core": "^6.26.3",
