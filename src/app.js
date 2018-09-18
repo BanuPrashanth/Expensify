@@ -3,9 +3,6 @@ import ReactDOM from 'react-dom';
 import AppRouter from './routers/AppRouter';
 import {Provider} from 'react-redux';
 import configureStore from './store/configureStore';
-import { addExpense } from './actions/expenses';
-import { setTextFilter, sortByAmount } from './actions/filters';
-import getVisibleText from './selectors/expenses';
 
 const store = configureStore();
 
